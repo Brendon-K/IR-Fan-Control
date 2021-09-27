@@ -17,7 +17,7 @@ After the raw IR signal is obtained, that is put into data.h so it can be sent i
 * Similarly, you can do the same to set the *temp_off* value, by pressing **B** instead.
 
 * There is a 16x2 LED display that will show the current temperature on the top row, the *temp_on* value on the bottom left, and the *temp_off* value on the bottom right.  
-![Image of LCD Display](https://github.com/Brendon-K/IR-Fan-Control/images/lcd.jpg)
+![Image of LCD Display](https://github.com/Brendon-K/IR-Fan-Control/blob/main/images/lcd.jpg?raw=true)
 
 * There is also a button that you can press manually to toggle the fan, but keep in mind that if you turn it off while the temperature is higher than *temp_on*, or turn it on while the temperature is lower than *temp_off*, then it will toggle back immediately after. (It's just following your directions.)
 
