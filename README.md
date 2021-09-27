@@ -1,5 +1,5 @@
 # IR-Fan-Control
-Turns on and off a fan with IR LED
+Turns on and off a fan with IR LED using the IRLib2 library.
 
 **ir_recv_raw.ino** is used to get the IR signal from the remote. 
 Source for that code is [this YouTube video](https://www.youtube.com/watch?v=JL821Ng-6vA) by Sayanee Basu
