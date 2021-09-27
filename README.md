@@ -6,7 +6,7 @@ Source for that code is [this YouTube video](https://www.youtube.com/watch?v=JL8
 
 After the raw IR signal is obtained, that is put into data.h so it can be sent in the **ir_fan_ctrl.ino** file.
 
-##Things ir_fan_ctrl.ino does:
+## Things ir_fan_ctrl.ino does:
 
 * When the arduino boots up, it asks you to calibrate the keypad (16-button). Because it uses 1 analog pin in the arduino instead of 8 digital pins, it requires specific-ish thresholds to know what button to press, and I was getting different signal values each time it started up. Calibrating solved that.
 
